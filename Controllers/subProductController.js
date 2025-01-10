@@ -1,7 +1,7 @@
 const SubProdModel=require('../Models/subProductModel')
 const fs = require('fs')
 
-exports.savesubproduct=async(req,res)=>
+exports.savesubProduct=async(req,res)=>
 {
     var picturename;
         if(!req.file)
